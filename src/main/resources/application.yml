@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: knowly-cloud-integration
+  config:
+    import: optional:configserver:http://knowly-config:8888
