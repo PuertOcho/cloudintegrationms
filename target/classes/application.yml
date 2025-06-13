@@ -1,3 +1,6 @@
+server:
+  port: ${PORT_CLOUD}
+
 spring:
   application:
     name: ${SPRING_APPLICATION_NAME}
