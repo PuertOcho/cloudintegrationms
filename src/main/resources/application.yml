@@ -6,3 +6,6 @@ spring:
     name: ${SPRING_APPLICATION_NAME}
   config:
     import: optional:configserver:http://${CONFIG_SERVICE}:${PORT_CONFIG}
+  cloud:
+    config:
+      name: cloud-integration
